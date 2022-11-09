@@ -10,6 +10,10 @@ body{
 }
 
 /* GENERIC */
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
 
 .border{
     border: 1px solid blue;
@@ -21,8 +25,6 @@ body{
 
 ul{
     list-style-type: none;
-    
-
 }
 
 a{
@@ -31,16 +33,25 @@ a{
     padding: 10px;
 }
 
+/* BUTTONS */
+.button-inizia{
+    color: #fff;
+    background-color: #0061ff;
+    height: 30px;
+    border: none;
+}
+
 /* UTILS */
 
 .white-txt{
     color: #fff;
 }
 
-.container{
-    width: 1000px;
-    margin: 0 auto;
+.mid-text{
+    font-size: 13px;
 }
+
+
 /* HEADER */
 header{
     height: 60px;
@@ -64,12 +75,7 @@ header{
     transform: scale(0.8);
 }
 
-.button-inizia{
-    color: #fff;
-    background-color: #0061ff;
-    height: 30px;
-    border: none;
-}
+
 
 /* MAIN */
 main{
@@ -78,18 +84,38 @@ main{
 }
 
 /* JUMBOTRON */
+.jumbotron{
+    background-color: #b4d0e7;
+}
+.jumbo-wrapper{
+    justify-content: space-between;
+}
 
 .jumbo-left{
     flex-basis: 33%;
     flex-direction: column;
     gap: 30px;
+    position: relative;
+}
+
+.down-arrow{
+    font-size: 40px;
+    position: absolute;
+    top: calc(100% - 40px);
 }
 
 .jumbo-right{
     flex-basis: 63%;
 }
 
+.jumbo-pic{
+    width: 100%;
+    display: block;
+}
+
 .title{
-    font-size: 70px;
-    margin-top: 30px;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: 900;
 }
