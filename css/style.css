@@ -243,3 +243,37 @@ main{
 
 
 /* FOOTER */
+footer{
+}
+
+
+.footer-wrapper{
+    height: 400px;
+    margin-top: 150px;
+
+}
+
+.col-footer{
+    border: #000 solid 1px;
+    flex-basis: calc(100% / 5);
+    height: 400px;
+}
+
+.title-list{
+    padding-bottom: 20px;
+}
+
+.list-footer{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link-footer{
+    color: #000;
+    font-size: 12px;
+    padding: 0px;
+}
+
+.link-footer{
+    padding-top: 20px;
+}
