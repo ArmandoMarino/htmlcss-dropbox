@@ -5,10 +5,11 @@
     box-sizing: border-box;
 }
 
-/* UTILIS */
 body{
     font-family: sans-serif;
 }
+
+/* GENERIC */
 
 .border{
     border: 1px solid blue;
@@ -18,10 +19,55 @@ body{
     display: flex;
 }
 
+ul{
+    list-style-type: none;
+    
 
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* UTILS */
+
+.white-txt{
+    color: #fff;
+}
 
 /* HEADER */
 header{
-    height: 100px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
 }
 
+
+.navbar{
+    height: 60px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.link-header a{
+    color: #000;
+    font-size: 12px;
+}
+
+.logo-small{
+    transform: scale(0.8);
+}
+
+
+.link-header{
+    
+}
+
+.button-inizia{
+    color: #fff;
+    background-color: #0061ff;
+    height: 30px;
+    border: none;
+}
