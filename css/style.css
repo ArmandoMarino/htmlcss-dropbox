@@ -236,10 +236,9 @@ main{
 }
 
 .faq-content{
-    display: none;
+    display: ;
     margin-top: 50px;
     margin-bottom: 50px;
-    border-bottom: #000 solid 2px;
 }
 
 
