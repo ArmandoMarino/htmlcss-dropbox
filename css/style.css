@@ -15,6 +15,11 @@ body{
     margin: 0 auto;
 }
 
+.container-small{
+    width: 800px;
+    margin: 0 auto;
+}
+
 .border{
     border: 1px solid blue;
 }
@@ -51,7 +56,6 @@ a{
     font-size: 13px;
 }
 
-
 /* HEADER */
 header{
     height: 60px;
@@ -86,8 +90,11 @@ main{
 /* JUMBOTRON */
 .jumbotron{
     background-color: #b4d0e7;
+    margin-bottom: 50px;
 }
 .jumbo-wrapper{
+    width: 900px;
+    height: 300px;
     justify-content: space-between;
 }
 
@@ -101,7 +108,7 @@ main{
 .down-arrow{
     font-size: 40px;
     position: absolute;
-    top: calc(100% - 40px);
+    top: calc(100% - 60px);
 }
 
 .jumbo-right{
@@ -109,13 +116,24 @@ main{
 }
 
 .jumbo-pic{
-    width: 100%;
+    width: 600px;
     display: block;
 }
 
 .title{
     font-size: 60px;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 40px;
     font-weight: 900;
+}
+
+
+
+.circle-blue{
+    display: inline-block;
+    line-height: baseline;
+    width: 13px;
+    height: 13px;
+    border: 3px solid #0061FF;
+    border-radius: 50%;
 }
