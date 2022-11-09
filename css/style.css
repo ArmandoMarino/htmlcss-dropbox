@@ -24,10 +24,6 @@ body{
     border: 1px solid blue;
 }
 
-.flex{
-    display: flex;
-}
-
 ul{
     list-style-type: none;
 }
@@ -55,6 +51,24 @@ a{
 .mid-text{
     font-size: 13px;
 }
+
+/* FLEX */
+.flex{
+    display: flex;
+}
+
+.basis2{
+    flex-basis: calc(100% / 2);
+}
+
+.basis3{
+    flex-basis: calc(100% / 3);
+}
+
+.basis4{
+    flex-basis: calc(100% / 4);
+}
+
 
 /* HEADER */
 header{
@@ -90,7 +104,7 @@ main{
 /* JUMBOTRON */
 .jumbotron{
     background-color: #b4d0e7;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .jumbo-wrapper{
     width: 900px;
@@ -137,3 +151,77 @@ main{
     border: 3px solid #0061FF;
     border-radius: 50%;
 }
+
+/* # SECTION INVOICING */
+
+/* TITLE INVOICING*/
+.title-wrapper{
+    width: 800px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.wrapper-col{
+
+}
+
+/* INVOICING */
+.row-invoicing{
+    min-height: 700px;
+}
+
+
+
+/* CARD ENTERPRICE */
+.card-enterprice{
+    height: 200px;
+}
+
+
+/* CARD ENTERPRICE */
+.card-partner{
+    height: 400px;
+}
+
+
+
+/* CARD ACTIVITY */
+.card-activity{
+    flex-direction: column ;
+    height: 700px;
+    flex-grow: 0;
+}
+
+
+
+/* SECTION TEAM */
+.team{
+    height: 400px;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.row-team{
+    
+}
+
+.card-team{
+    height: 50%;
+    width: 100%;
+    background-color: yellow;
+}
+
+
+.col-team{
+    flex-direction: column;
+}
+
+/* FREETRY */
+.row-freetry{
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+/* FAQ */
+.faq
+
