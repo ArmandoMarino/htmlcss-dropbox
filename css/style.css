@@ -219,9 +219,28 @@ main{
 /* FREETRY */
 .row-freetry{
     height: 300px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 /* FAQ */
-.faq
+.faq-wrapper{
+    border-bottom: #000 solid 1px;
+}
 
+.faq-question{
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-top: #000 solid 1px;
+    
+}
+
+.faq-content{
+    display: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: #000 solid 2px;
+}
+
+
+/* FOOTER */
