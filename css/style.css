@@ -37,13 +37,17 @@ a{
     color: #fff;
 }
 
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
 /* HEADER */
 header{
     height: 60px;
+    width: auto;
     justify-content: space-between;
     align-items: center;
 }
-
 
 .navbar{
     height: 60px;
@@ -60,14 +64,32 @@ header{
     transform: scale(0.8);
 }
 
-
-.link-header{
-    
-}
-
 .button-inizia{
     color: #fff;
     background-color: #0061ff;
     height: 30px;
     border: none;
+}
+
+/* MAIN */
+main{
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+}
+
+/* JUMBOTRON */
+
+.jumbo-left{
+    flex-basis: 33%;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.jumbo-right{
+    flex-basis: 63%;
+}
+
+.title{
+    font-size: 70px;
+    margin-top: 30px;
 }
