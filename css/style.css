@@ -367,19 +367,31 @@ header{
     margin: 0 auto;
 }
 
-.row-team{
-    
+.col-team{
+    flex-direction: column;
 }
 
 .card-team{
     height: 50%;
     width: 100%;
-    background-color: yellow;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    border: 10px solid rgba(0, 0, 0, 0);
 }
 
 
-.col-team{
-    flex-direction: column;
+/* ID IMAGES PARTNER FINALS */
+#img-team-1{
+    background-image: url(../img/designit.svg);
+    background-color: #5d2c64;
+    filter: invert(1);
+}
+
+#img-team-2{
+    background-image: url(../img/university_of_florida.svg);
+    background-color: #ff6c31;
+    filter: invert(1);
 }
 
 /* FREETRY */
