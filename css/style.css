@@ -75,7 +75,8 @@ a{
 
 .icons{
     display: inline-block;
-    vertical-align: -2px;
+    vertical-align: 2px;
+    margin-right: 5px;
     position: relative;
 }
 /* TEXT */
@@ -85,6 +86,14 @@ a{
 
 .mid-text{
     font-size: 13px;
+}
+
+.small-text{
+    font-size: 10px;
+}
+
+.align-text{
+    text-align: center;
 }
 
 /* MARGIN */
@@ -100,6 +109,10 @@ a{
     margin-top: 30px;
 }
 
+.mg-t40{
+    margin-top: 40px;
+}
+
 .mg-t15{
     margin-top: 15px;
 }
@@ -108,7 +121,16 @@ a{
     margin-left: 5px;
 }
 
+
+/* LISTA MARGINE NEGATIVO */
+.mg-neg15{
+    margin-left: -15px;
+}
+
 /* PADDING */
+
+
+
 
 /* FLEX */
 .flex{
@@ -203,10 +225,15 @@ header{
 
 /* # SECTION INVOICING */
 
-/* TITLE INVOICING*/
+/* HEADER INVOICING*/
+.icon-primary-inv{
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 15px;
+}
 
-.wrapper-col{
-
+.col-professional{
+    
 }
 
 /* INVOICING */
@@ -214,7 +241,16 @@ header{
     min-height: 700px;
 }
 
+#sub-title-inv{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: -15px;
+    margin-top: 15px;
+}
 
+.fa-ul li{
+    font-size: 12px;
+}
 
 
 
