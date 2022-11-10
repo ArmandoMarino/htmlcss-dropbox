@@ -128,8 +128,7 @@ main{
 
 .down-arrow{
     font-size: 40px;
-    position: absolute;
-    top: calc(100% - 60px);
+    position: relative;
 }
 
 .jumbo-right{
