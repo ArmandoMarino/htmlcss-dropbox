@@ -92,6 +92,11 @@ img{
     margin-right: 5px;
     position: relative;
 }
+
+.link-blue{
+    font-size: 13px;
+    color: #0061ff;
+}
 /* TEXT */
 .white-txt{
     color: #fff;
@@ -134,6 +139,17 @@ img{
     margin-left: 5px;
 }
 
+.mg-l20{
+    margin-left: 20px;
+}
+
+.mg-b100{
+    margin-bottom: 100px;
+}
+
+.mg-t100{
+    margin-top: 100px;
+}
 
 /* LISTA MARGINE NEGATIVO */
 .mg-neg15{
