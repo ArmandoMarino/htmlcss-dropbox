@@ -30,9 +30,15 @@ ul{
 
 a{
     text-decoration: none;
-    cursor: pointer;
-    padding: 10px;
 }
+
+.section-title{
+    font-size: 30px;
+    font-weight: 750;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 
 /* BUTTONS */
 .btn{
@@ -44,18 +50,54 @@ a{
 .btn-blue{
     color: #fff;
     background-color: #0061ff;
-    height: 30px;
+    padding: 5px 10px;
     border: none; 
 }
 
-/* UTILS */
+/** UTILS **/
+.circle-blue{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border: 3px solid #0061FF;
+    border-radius: 50%;
+    vertical-align: -2px;
+}
 
+.circle-white{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    vertical-align: -2px;
+}
+
+.icons{
+    display: inline-block;
+    vertical-align: -2px;
+    position: relative;
+}
+/* TEXT */
 .white-txt{
     color: #fff;
 }
 
 .mid-text{
     font-size: 13px;
+}
+
+/* MARGIN */
+.mg-r30{
+    margin-right: 30px;
+}
+
+.mg-b30{
+    margin-bottom: 30px;
+}
+
+.mg-t30{
+    margin-top: 30px;
 }
 
 /* FLEX */
@@ -100,6 +142,10 @@ header{
     font-size: 12px;
 }
 
+.link-header li{
+    padding: 5px 10px;
+}
+
 .logo-small{
     transform: scale(0.8);
 }
@@ -107,9 +153,6 @@ header{
 
 
 /* MAIN */
-main{
-   
-}
 
 /* JUMBOTRON */
 .jumbotron{
@@ -148,16 +191,6 @@ main{
 }
 
 
-
-.circle-blue{
-    display: inline-block;
-    line-height: baseline;
-    width: 13px;
-    height: 13px;
-    border: 3px solid #0061FF;
-    border-radius: 50%;
-}
-
 /* # SECTION INVOICING */
 
 /* TITLE INVOICING*/
@@ -170,6 +203,8 @@ main{
 .row-invoicing{
     min-height: 700px;
 }
+
+
 
 
 
