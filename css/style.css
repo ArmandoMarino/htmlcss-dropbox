@@ -11,12 +11,12 @@ body{
 
 /* GENERIC */
 .container{
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 .container-small{
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -35,11 +35,17 @@ a{
 }
 
 /* BUTTONS */
-.button-inizia{
+.btn{
+    height: 30px;
+    border: none;
+}
+
+
+.btn-blue{
     color: #fff;
     background-color: #0061ff;
     height: 30px;
-    border: none;
+    border: none; 
 }
 
 /* UTILS */
@@ -73,9 +79,14 @@ a{
 /* HEADER */
 header{
     height: 60px;
-    width: auto;
+    position: sticky;
+    top: 0;
+    left:0;
+    background-color: #fff;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
+    box-shadow: 0 0 3px #666;
 }
 
 .navbar{
@@ -97,20 +108,16 @@ header{
 
 /* MAIN */
 main{
-    height: calc(100vh - 60px);
-    overflow-y: auto;
+   
 }
 
 /* JUMBOTRON */
 .jumbotron{
     background-color: #b4d0e7;
     margin-bottom: 100px;
+    height: 540px;
 }
-.jumbo-wrapper{
-    width: 900px;
-    height: 300px;
-    justify-content: space-between;
-}
+
 
 .jumbo-left{
     flex-basis: 33%;
@@ -130,7 +137,7 @@ main{
 }
 
 .jumbo-pic{
-    width: 600px;
+    max-width: 100%;
     display: block;
 }
 
