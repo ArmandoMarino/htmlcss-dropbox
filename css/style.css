@@ -30,6 +30,7 @@ ul{
 
 a{
     text-decoration: none;
+    color: #000;
 }
 
 .section-title{
@@ -39,11 +40,16 @@ a{
     padding-bottom: 30px;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+}
 
 /* BUTTONS */
 .btn{
     height: 30px;
     border: none;
+    color: #000;
 }
 
 
@@ -52,6 +58,13 @@ a{
     background-color: #0061ff;
     padding: 5px 10px;
     border: none; 
+}
+
+.btn-white{
+    color: #000;
+    background-color: #fff;
+    padding: 5px 10px;
+    border: #000 1px solid; 
 }
 
 /** UTILS **/
@@ -286,10 +299,23 @@ header{
 
 /* CARD PARTNER */
 .card-partner{
-    height: 400px;
+    min-height: 400px;
+    margin-bottom: 100px;
 }
 
+.left-partner{
+    flex-basis: 60%;
+    
+}
 
+.right-partner{
+    flex-basis: 40%;
+    margin-left: 40px;
+}
+
+.title-partner{
+    fon
+}
 
 /* CARD ACTIVITY */
 .card-activity{
