@@ -97,6 +97,11 @@ img{
     font-size: 13px;
     color: #0061ff;
 }
+
+
+.relative{
+    position: relative;
+}
 /* TEXT */
 .white-txt{
     color: #fff;
@@ -147,9 +152,15 @@ img{
     margin-bottom: 100px;
 }
 
+.mg-t50{
+    margin-top: 50px;
+}
+
 .mg-t100{
     margin-top: 100px;
 }
+
+
 
 /* LISTA MARGINE NEGATIVO */
 .mg-neg15{
@@ -380,6 +391,11 @@ header{
     border: 10px solid rgba(0, 0, 0, 0);
 }
 
+/* TITLE STATISTICS */
+.background-business{
+    padding: 100px;
+}
+
 
 /* ID IMAGES PARTNER FINALS */
 #img-team-1{
@@ -393,11 +409,69 @@ header{
     background-color: #ff6c31;
     filter: invert(1);
 }
+#img-team-3{
+    background-image: url(../img/arizona_state_university.svg);
+    background-color: #9ef7d4;
+    filter: invert(1);
+}
+
+#img-team-4{
+    background-image: url(../img/topps.svg);
+    background-color: #00e3e3;
+    filter: invert(1);
+}
+
+#img-team-5{
+    background-image: url(../img/designit.svg);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 20%;
+    background-size: contain;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    background-color: #f5f5f5;
+}
+
+#img-team-6{
+    background-image: url(../img/world_bicycle_relief.svg);
+    background-color: #00e3e3;
+    filter: invert(1);
+}
+
+#img-team-7{
+    background-image: url(../img/lonely_planet.svg);
+    background-color: #f2db7e;
+    filter: invert(1);
+}
+
+#img-team-8{
+    background-image: url(../img/hearst_corp.svg);
+    background-color: #4b2f18;
+    filter: invert(1);
+}
+
+#img-team-9{
+    background-image: url(../img/clear_channel.svg);
+    background-color: #0027cf;
+    filter: invert(1);
+}
+
+
 
 /* FREETRY */
-.row-freetry{
-    height: 300px;
+.row-free-entry{
+    height: 200px;
     margin-bottom: 100px;
+}
+
+.freetry-text{
+    color: #61092c;
+    padding: 50px;
+}
+
+.wrapper-free-entry{
+    background-color: #b4d0e7;
 }
 
 /* FAQ */
@@ -422,6 +496,8 @@ header{
 
 /* FOOTER */
 footer{
+    background-color: #000;
+    color: #fff;
 }
 
 
@@ -439,6 +515,7 @@ footer{
 
 .title-list{
     padding-bottom: 20px;
+    padding-top: 100px;
 }
 
 .list-footer{
@@ -450,6 +527,10 @@ footer{
     color: #000;
     font-size: 12px;
     padding: 0px;
+}
+
+li .link-footer{
+    color: #fff;
 }
 
 .link-footer{
