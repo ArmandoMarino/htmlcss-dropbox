@@ -100,9 +100,6 @@ img{
 }
 
 
-.relative{
-    position: relative;
-}
 /* TEXT */
 .white-txt{
     color: #fff;
@@ -215,15 +212,25 @@ header{
 .link-header a{
     color: #000;
     font-size: 12px;
+    padding: 10px 10px;
 }
 
 .link-header li{
-    padding: 5px 10px;
+    height: 100%;
+    display: inline-block;
 }
+
+.link-header ul{
+    padding: 5px 10px;
+    flex-direction: column;
+}
+
+.link-header
 
 .logo-small{
     transform: scale(0.8);
 }
+
 
 
 
@@ -380,15 +387,13 @@ header{
 
 
 /* SECTION TEAM */
-.square-container{
-    
-}
-
 .square{
    width: calc(100vw / 3);
    height: calc(100vw / 3);
    display: flex;
    flex-wrap: wrap;
+   border: 10px solid transparent;
+
 }
 
 .small-square{
@@ -398,7 +403,10 @@ header{
     background-size: 50%;
     background-position: center;
     border: 10px solid transparent;
-    invert
+}
+
+.small-square:hover{
+    border: 10px solid rgba(0, 0, 0, 0.5)
 }
 
 /* TITLE STATISTICS */
