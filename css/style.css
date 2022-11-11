@@ -91,6 +91,7 @@ img{
     vertical-align: 2px;
     margin-right: 5px;
     position: relative;
+    height: 10px;
 }
 
 .link-blue{
@@ -269,16 +270,27 @@ header{
 
 /* HEADER INVOICING*/
 .icon-primary-inv{
-    max-width: fit-content;
-    margin: 0 auto;
-    padding: 15px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #000 solid 1px;
 }
+
 /* INVOICING */
 .row-invoicing{
     min-height: 700px;
     border: #666 solid 1px;
     border-left: #666 solid 1px;
     border-right: none;
+}
+
+
+.professional{
+    margin-top: 40px;
+}
+
+.professional ul li{
+    margin-top: 20px;
 }
 
 .col-professional, .col-advanced, .col-enterprice{
@@ -344,10 +356,6 @@ header{
 .card-activity{
     flex-direction: column;
     flex-grow: 0;
-}
-
-.row-activity img{
-    
 }
 
 .col-activity{
