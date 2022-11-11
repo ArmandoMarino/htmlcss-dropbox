@@ -380,23 +380,24 @@ header{
 
 
 /* SECTION TEAM */
-.team{
-    height: 400px;
-    width: 1400px;
-    margin: 0 auto;
+.square-container{
+    
 }
 
-.col-team{
-    flex-direction: column;
+.square{
+   width: calc(100vw / 3);
+   height: calc(100vw / 3);
+   display: flex;
+   flex-wrap: wrap;
 }
 
-.card-team{
+.small-square{
+    width: 50%;
     height: 50%;
-    width: 100%;
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center;
-    border: 10px solid rgba(0, 0, 0, 0);
+    border: 10px solid transparent;
     invert
 }
 
@@ -414,15 +415,17 @@ header{
 }
 
 #img-team-2{
-    background-image: url(../img/university_of_florida.svg);
-    background-color: #ff6c31;
-    filter: invert(1);
-}
-#img-team-3{
     background-image: url(../img/arizona_state_university.svg);
     background-color: #9ef7d4;
     filter: invert(1);
 }
+
+#img-team-3{
+    background-image: url(../img/university_of_florida.svg);
+    background-color: #ff6c31;
+    filter: invert(1);
+}
+
 
 #img-team-4{
     background-image: url(../img/topps.svg);
@@ -449,14 +452,14 @@ header{
 }
 
 #img-team-7{
-    background-image: url(../img/lonely_planet.svg);
-    background-color: #f2db7e;
+    background-image: url(../img/hearst_corp.svg);
+    background-color: #4b2f18;
     filter: invert(1);
 }
 
 #img-team-8{
-    background-image: url(../img/hearst_corp.svg);
-    background-color: #4b2f18;
+    background-image: url(../img/lonely_planet.svg);
+    background-color: #f2db7e;
     filter: invert(1);
 }
 
